@@ -1,0 +1,28 @@
+{
+  "name": "Exporter",
+  "version": "1.0.0",
+  "author": "Jessica Lancelot",
+  "license": "ISC",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ncp": "^2.0.0",
+    "unzipper": "^0.10.11",
+    "zip-a-folder": "^1.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.4.1"
+  },
+  "bin": {
+    "myapp": "./main.js"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/**/*"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ]
+  }
+}
