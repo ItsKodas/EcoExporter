@@ -18,3 +18,6 @@ If you want to set a custom output path you can use `out=C:/PATH/Game.eco` / `ou
 
 If you want to only add specific attributes from the source world you can use `attr=blocks,plants` for example.
 Attributes consist of `blocks`, `plants`, `civics`, and `objects` and should be seperated by commas and NO spaces.
+
+### Post Export
+After you have successfully spliced the 2 saves together and recieved the output, move the output into the `Storage` folder on your server and make sure its named `Game.eco`.
